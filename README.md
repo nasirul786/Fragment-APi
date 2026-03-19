@@ -101,7 +101,7 @@ Retrieve a Telegram user's Fragment details.
 ### **Endpoint**
 
 ```
-POST https://api.arijitiyan.cc/frgmnt/buy.php
+POST https://api.arijitiyan.cc/frgmnt/search.php
 ```
 
 ### **Request Body**
