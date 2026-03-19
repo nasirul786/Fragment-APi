@@ -5,6 +5,8 @@ Payment is automatically deducted from your TON wallet.
 
 This API allows you to build a fully automated **Telegram Stars selling bot**.
 
+### [Test Video 🕵️‍♂️🕵️‍♂️](https://t.me/bottercc/469)
+
 ---
 
 ## 🚀 Features
