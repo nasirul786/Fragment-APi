@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+    <head>
+        <meta charSet="utf-8"/>
+        <meta charSet="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="/_next/static/chunks/0mtcuu7cd2iei.css" data-precedence="next"/>
+        <link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/15xrurgzs99gv.js"/>
+        <script src="/_next/static/chunks/0p5.qr0b94vxo.js" async=""></script>
+        <script src="/_next/static/chunks/0mstyq17cbf8-.js" async=""></script>
+        <script src="/_next/static/chunks/turbopack-0do_i14zz2fj4.js" async=""></script>
+        <script src="/_next/static/chunks/0dbhjjzl8qfwv.js" async=""></script>
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800;900&amp;family=Inter:wght@400;500;600;700&amp;display=swap" as="style"/>
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" as="style"/>
+        <title>Fragment API - Power your Telegram Apps</title>
+        <meta name="description" content="A free, secure, and robust API to buy Telegram Stars, TON top-ups, and Subscriptions at cheaper rates."/>
+        <link rel="icon" href="/favicon.ico?favicon.0hj2gf13-1elz.ico" sizes="640x640" type="image/x-icon"/>
+        <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800;900&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+        <script id="tailwind-config">
+            window.tailwind = window.tailwind || {};
+            window.tailwind.config = {
+                darkMode: "class",
+                theme: {
+                    extend: {
+                        "colors": {
+                            "on-surface-variant": "#4a4a4a",
+                            "on-background": "#1a1a1a",
+                            "secondary": "#e63b2e",
+                            "error": "#cc0000",
+                            "primary-fixed": "#ffcc00",
+                            "surface-dim": "#d6d1c9",
+                            "surface": "#f5f0e8",
+                            "error-container": "#ffdad6",
+                            "inverse-primary": "#f5f0e8",
+                            "secondary-fixed": "#ffdad6",
+                            "on-tertiary-fixed": "#1a1a1a",
+                            "on-tertiary": "#ffffff",
+                            "on-secondary": "#1a1a1a",
+                            "outline": "#1a1a1a",
+                            "on-tertiary-fixed-variant": "#1a1a1a",
+                            "on-surface": "#1a1a1a",
+                            "on-secondary-container": "#1a1a1a",
+                            "on-primary-fixed": "#1a1a1a",
+                            "surface-variant": "#e8e3da",
+                            "surface-bright": "#faf7f2",
+                            "surface-container-highest": "#e2ddd4",
+                            "on-secondary-fixed": "#1a1a1a",
+                            "surface-container-low": "#f2ede5",
+                            "on-primary-fixed-variant": "#1a1a1a",
+                            "inverse-surface": "#1a1a1a",
+                            "primary-container": "#ffcc00",
+                            "on-secondary-fixed-variant": "#1a1a1a",
+                            "tertiary-container": "#d6e3ff",
+                            "on-error-container": "#93000a",
+                            "on-primary-container": "#1a1a1a",
+                            "surface-tint": "#1a1a1a",
+                            "surface-container-high": "#e8e3da",
+                            "secondary-fixed-dim": "#ffb3ab",
+                            "inverse-on-surface": "#f5f0e8",
+                            "surface-container": "#eee9e0",
+                            "tertiary-fixed-dim": "#a8c6ff",
+                            "on-tertiary-container": "#1a1a1a",
+                            "on-primary": "#ffffff",
+                            "tertiary": "#0055ff",
+                            "secondary-container": "#ffdad6",
+                            "primary-fixed-dim": "#e6b800",
+                            "on-error": "#ffffff",
+                            "primary": "#1a1a1a",
+                            "tertiary-fixed": "#d6e3ff",
+                            "surface-container-lowest": "#ffffff",
+                            "outline-variant": "#d0cbc3",
+                            "background": "#f5f0e8"
+                        },
+                        "borderRadius": {
+                            "DEFAULT": "0.125rem",
+                            "lg": "0.25rem",
+                            "xl": "0.5rem",
+                            "full": "0.75rem"
+                        },
+                        "fontFamily": {
+                            "headline": ["Space Grotesk", "sans-serif"],
+                            "body": ["Inter", "sans-serif"],
+                            "label": ["Space Grotesk", "sans-serif"]
+                        },
+                        "boxShadow": {
+                            'brutal': '4px 4px 0px 0px #1a1a1a',
+                            'brutal-lg': '8px 8px 0px 0px #1a1a1a',
+                        }
+                    }
+                }
+            };
+        </script>
+        <style>
+            body {
+                background-color: #f5f0e8;
+                color: #1a1a1a;
+            }
+
+            .material-symbols-outlined {
+                font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            }
+
+            .fill-icon {
+                font-variation-settings: 'FILL' 1;
+            }
+        </style>
+        <script src="/_next/static/chunks/03~yq9q893hmn.js" noModule=""></script>
+    </head>
+    <body class="font-body antialiased selection:bg-primary-container selection:text-on-primary-container overflow-x-hidden">
+        <div hidden="">
+        <!--$-->
+        <!--/$-->
+        </div>
+        <main class="overflow-x-hidden">
+            <nav class="fixed top-0 w-full z-50 flex justify-between items-center px-4 md:px-8 py-3 md:py-4 bg-[#f5f0e8] dark:bg-stone-950 border-b-4 border-stone-900">
+                <div class="flex items-center gap-8">
+                    <a class="text-2xl md:text-3xl font-black italic tracking-tighter text-stone-900" href="#">Fragment API</a>
+                    <div id="desktop-nav" class="hidden md:flex items-center gap-6">
+                        <a class="nav-link font-[&#x27;Space_Grotesk&#x27;] font-bold uppercase tracking-tight text-stone-900 border-b-4 border-yellow-400 pb-1 hover:bg-yellow-400 hover:text-stone-900 transition-all duration-75 active:translate-x-1 active:translate-y-1" href="#features">Features</a>
+                        <a class="nav-link font-[&#x27;Space_Grotesk&#x27;] font-bold uppercase tracking-tight text-stone-700 border-b-4 border-transparent pb-1 hover:text-stone-900 hover:bg-yellow-400 transition-all duration-75 active:translate-x-1 active:translate-y-1" href="#pricing">Pricing</a>
+                        <a class="nav-link font-[&#x27;Space_Grotesk&#x27;] font-bold uppercase tracking-tight text-stone-700 border-b-4 border-transparent pb-1 hover:text-stone-900 hover:bg-yellow-400 transition-all duration-75 active:translate-x-1 active:translate-y-1" href="/doc">Docs</a>
+                        <a class="nav-link font-[&#x27;Space_Grotesk&#x27;] font-bold uppercase tracking-tight text-stone-700 border-b-4 border-transparent pb-1 hover:text-stone-900 hover:bg-yellow-400 transition-all duration-75 active:translate-x-1 active:translate-y-1" href="#developer">Developer</a>
+                    </div>
+                </div>
+                <button id="mobile-menu-btn" class="md:hidden flex items-center justify-center p-1.5 border-4 border-primary bg-primary-container text-on-primary-container shadow-[2px_2px_0px_0px_#1a1a1a] active:translate-y-1 active:translate-x-1 transition-all">
+                    <span id="mobile-menu-icon" class="material-symbols-outlined">menu</span>
+                </button>
+            </nav>
+            <div id="mobile-menu" class="hidden md:hidden fixed top-[69px] left-0 w-full bg-[#f5f0e8] border-b-4 border-stone-900 z-40 flex-col p-6 gap-6 shadow-brutal-lg transition-all">
+                <a class="mobile-nav-link font-label font-bold uppercase text-2xl text-stone-900 border-l-8 border-yellow-400 pl-4 py-2 hover:border-yellow-400" href="#features">Features</a>
+                <a class="mobile-nav-link font-label font-bold uppercase text-2xl text-stone-700 border-l-8 border-transparent pl-4 py-2 hover:border-yellow-400 active:border-yellow-400 transition-colors" href="#pricing">Pricing</a>
+                <a class="mobile-nav-link font-label font-bold uppercase text-2xl text-stone-700 border-l-8 border-transparent pl-4 py-2 hover:border-yellow-400 active:border-yellow-400 transition-colors" href="/doc">Docs</a>
+                <a class="mobile-nav-link font-label font-bold uppercase text-2xl text-stone-700 border-l-8 border-transparent pl-4 py-2 hover:border-yellow-400 active:border-yellow-400 transition-colors" href="#developer">Developer</a>
+            </div>
+            <header class="pt-28 md:pt-32 pb-16 md:pb-24 px-4 md:px-8 max-w-7xl mx-auto min-h-[calc(100vh-80px)] flex flex-col justify-center relative">
+                <div class="absolute top-40 right-10 w-48 md:w-64 h-48 md:h-64 bg-primary-container border-4 border-primary rounded-full blur-3xl opacity-20 -z-10"></div>
+                <div class="absolute bottom-20 left-10 w-64 md:w-96 h-64 md:h-96 bg-secondary border-4 border-primary rounded-full blur-3xl opacity-10 -z-10"></div>
+                <div class="max-w-4xl mt-12 md:mt-0">
+                    <h1 class="font-headline font-black text-5xl leading-tight sm:text-6xl md:text-8xl lg:text-9xl tracking-tighter uppercase md:leading-[0.85] mb-6 md:mb-8 text-primary">
+                        Power your <br/>
+                        <span class="text-tertiary drop-shadow-[3px_3px_0_#1a1a1a] md:drop-shadow-[4px_4px_0_#1a1a1a]">Telegram</span>
+                        <br/>Apps
+                    </h1>
+                    <p class="font-body text-lg md:text-2xl font-medium max-w-2xl mb-8 md:mb-12 border-l-4 md:border-l-8 border-secondary pl-4 md:pl-6 py-2">
+                        A free, secure, and robust API to buy Telegram Stars, TON top-ups, and Subscriptions at <span class="bg-primary-container font-bold px-1.5 md:px-2 border-2 border-primary inline-block transform -rotate-2 leading-none py-1">cheaper rates</span>
+                        .
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 md:gap-6 w-full">
+                        <a class="w-full sm:w-auto font-label font-bold uppercase text-base md:text-lg tracking-widest bg-primary text-on-primary px-6 md:px-10 py-4 md:py-5 border-4 border-primary hover:bg-primary-container hover:text-on-primary-container active:translate-y-1 active:translate-x-1 transition-all shadow-brutal text-center flex items-center justify-center gap-3" href="/doc">
+                            Get Started <span class="material-symbols-outlined">arrow_forward</span>
+                        </a>
+                        <a class="w-full sm:w-auto font-label font-bold uppercase text-base md:text-lg tracking-widest bg-surface text-primary px-6 md:px-10 py-4 md:py-5 border-4 border-primary hover:bg-surface-dim active:translate-y-1 active:translate-x-1 transition-all shadow-brutal text-center" href="/doc">View Docs</a>
+                    </div>
+                    <div class="mt-12 md:mt-16 flex flex-col sm:flex-row sm:items-center gap-3 md:gap-4 text-xs md:text-sm font-bold uppercase tracking-wider text-on-surface-variant">
+                        <span class="flex items-center gap-2">
+                            <span class="material-symbols-outlined text-secondary text-base md:text-[24px]">verified</span>
+                            Created by @bottercc
+                        </span>
+                        <span class="hidden sm:block w-2 h-2 bg-primary rounded-full"></span>
+                        <span class="flex items-center gap-2">
+                            <span class="material-symbols-outlined text-tertiary text-base md:text-[24px]">lock</span>
+                            Secure payments via TON wallet
+                        </span>
+                    </div>
+                </div>
+            </header>
+            <section class="py-16 md:py-24 px-4 md:px-8 border-y-4 border-primary bg-surface-bright" id="features">
+                <div class="max-w-7xl mx-auto">
+                    <h2 class="font-headline font-black text-4xl md:text-7xl uppercase tracking-tighter mb-10 md:mb-16 relative inline-block">
+                        Capabilities<span class="absolute -bottom-4 left-0 w-full h-2 bg-primary-container border-2 border-primary"></span>
+                    </h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                        <div class="border-4 border-primary bg-surface p-8 shadow-brutal hover:shadow-brutal-lg transition-shadow relative overflow-hidden group">
+                            <div class="absolute -right-12 -top-12 w-32 h-32 bg-primary-container border-4 border-primary rounded-full group-hover:scale-150 transition-transform duration-500 z-0"></div>
+                            <div class="relative z-10">
+                                <span class="material-symbols-outlined text-5xl mb-6 text-primary block fill-icon">stars</span>
+                                <h3 class="font-headline font-bold text-3xl uppercase tracking-tight mb-4">Telegram Stars</h3>
+                                <p class="font-body text-lg text-on-surface-variant">Integrate star purchases directly into your bots or web apps with minimal configuration.</p>
+                            </div>
+                        </div>
+                        <div class="border-4 border-primary bg-secondary p-8 shadow-brutal hover:shadow-brutal-lg transition-shadow relative overflow-hidden group text-on-error">
+                            <div class="relative z-10">
+                                <span class="material-symbols-outlined text-5xl mb-6 block">account_balance_wallet</span>
+                                <h3 class="font-headline font-bold text-3xl uppercase tracking-tight mb-4">TON Top-up</h3>
+                                <p class="font-body text-lg opacity-90">Seamlessly top up any Telegram account with TON globally, instantly.</p>
+                            </div>
+                        </div>
+                        <div class="border-4 border-primary bg-tertiary p-8 shadow-brutal hover:shadow-brutal-lg transition-shadow relative overflow-hidden group text-on-tertiary">
+                            <div class="relative z-10">
+                                <span class="material-symbols-outlined text-5xl mb-6 block">workspace_premium</span>
+                                <h3 class="font-headline font-bold text-3xl uppercase tracking-tight mb-4">Premium Subscriptions</h3>
+                                <p class="font-body text-lg opacity-90">Gift or buy Telegram Premium at lower costs directly through the API.</p>
+                            </div>
+                        </div>
+                        <div class="border-4 border-primary bg-primary-container p-8 shadow-brutal hover:shadow-brutal-lg transition-shadow relative overflow-hidden group">
+                            <div class="relative z-10">
+                                <span class="material-symbols-outlined text-5xl mb-6 text-primary block fill-icon">shield</span>
+                                <h3 class="font-headline font-bold text-3xl uppercase tracking-tight mb-4">Secure &amp;Robust</h3>
+                                <p class="font-body text-lg text-primary">Built for high-volume developer needs. 99.9% uptime guaranteed.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="py-16 md:py-24 px-4 md:px-8 max-w-7xl mx-auto" id="pricing">
+                <h2 class="font-headline font-black text-4xl md:text-7xl uppercase tracking-tighter mb-10 md:mb-16 text-center">
+                    The <span class="bg-primary text-on-primary px-4 py-2 border-4 border-primary transform inline-block rotate-2 ml-1 md:ml-4">Advantage</span>
+                </h2>
+                <div class="border-4 border-primary bg-surface shadow-brutal overflow-hidden">
+                    <div class="grid grid-cols-3 border-b-4 border-primary bg-surface-dim font-headline font-bold uppercase text-[10px] md:text-lg">
+                        <div class="p-2 md:p-6 border-r-4 border-primary flex items-center justify-center">Item</div>
+                        <div class="p-2 md:p-6 border-r-4 border-primary flex items-center justify-center text-center">Official App</div>
+                        <div class="p-2 md:p-6 bg-primary-container flex items-center justify-center text-center">Fragment API</div>
+                    </div>
+                    <div class="grid grid-cols-3 border-b-4 border-primary relative group hover:bg-surface-variant transition-colors">
+                        <div class="p-2 md:p-6 border-r-4 border-primary flex items-center gap-1 md:gap-4 font-bold text-[10px] sm:text-xs md:text-xl">
+                            <span class="material-symbols-outlined fill-icon text-primary-fixed-dim text-sm md:text-2xl">stars</span>
+                            1000 Stars
+                        </div>
+                        <div class="p-2 md:p-6 border-r-4 border-primary flex items-center justify-center text-on-surface-variant line-through text-[10px] sm:text-xs md:text-lg">~$21.60</div>
+                        <div class="p-2 md:p-6 flex items-center justify-center font-black text-xs sm:text-sm md:text-2xl text-secondary bg-primary-container/20 group-hover:bg-primary-container transition-colors">~$15.00</div>
+                    </div>
+                    <div class="grid grid-cols-3 border-b-4 border-primary relative group hover:bg-surface-variant transition-colors">
+                        <div class="p-2 md:p-6 border-r-4 border-primary flex items-center gap-1 md:gap-4 font-bold text-[10px] sm:text-xs md:text-xl">
+                            <span class="material-symbols-outlined fill-icon text-primary-fixed-dim text-sm md:text-2xl">stars</span>
+                            3000 Stars
+                        </div>
+                        <div class="p-2 md:p-6 border-r-4 border-primary flex items-center justify-center text-on-surface-variant line-through text-[10px] sm:text-xs md:text-lg">~$64.80</div>
+                        <div class="p-2 md:p-6 flex items-center justify-center font-black text-xs sm:text-sm md:text-2xl text-secondary bg-primary-container/20 group-hover:bg-primary-container transition-colors">~$45.00</div>
+                    </div>
+                    <div class="grid grid-cols-3 border-b-4 border-primary relative group hover:bg-surface-variant transition-colors">
+                        <div class="p-2 md:p-6 border-r-4 border-primary flex items-center gap-1 md:gap-4 font-bold text-[10px] sm:text-xs md:text-xl">
+                            <span class="material-symbols-outlined fill-icon text-primary-fixed-dim text-sm md:text-2xl">stars</span>
+                            5000 Stars
+                        </div>
+                        <div class="p-2 md:p-6 border-r-4 border-primary flex items-center justify-center text-on-surface-variant line-through text-[10px] sm:text-xs md:text-lg">~$108.00</div>
+                        <div class="p-2 md:p-6 flex items-center justify-center font-black text-xs sm:text-sm md:text-2xl text-secondary bg-primary-container/20 group-hover:bg-primary-container transition-colors">~$75.00</div>
+                    </div>
+                </div>
+            </section>
+            <section class="py-16 md:py-24 px-4 md:px-8 border-t-4 border-primary bg-primary text-on-primary" id="developer">
+                <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 items-center">
+                    <div>
+                        <h2 class="font-headline font-black text-4xl md:text-7xl uppercase tracking-tighter mb-6 md:mb-8">Developer Ready</h2>
+                        <p class="font-body text-xl mb-8 opacity-90 border-l-4 border-primary-container pl-4">Integrate in minutes. Simple REST endpoints designed for speed and reliability.</p>
+                        <a class="font-label font-bold uppercase tracking-widest bg-primary-container text-on-primary-container px-8 py-4 border-4 border-primary-container hover:bg-surface hover:border-surface hover:text-primary active:translate-y-1 active:translate-x-1 transition-all inline-block" href="/doc">Read the Docs</a>
+                    </div>
+                    <div class="border-4 border-outline bg-[#0d0d0d] p-4 md:p-6 shadow-[8px_8px_0px_0px_#ffcc00] relative overflow-hidden max-w-full w-full">
+                        <div class="absolute top-0 left-0 w-full h-8 border-b-4 border-outline flex items-center px-4 gap-2 bg-surface">
+                            <div class="w-3 h-3 rounded-full bg-secondary border-2 border-outline"></div>
+                            <div class="w-3 h-3 rounded-full bg-primary-container border-2 border-outline"></div>
+                            <div class="w-3 h-3 rounded-full bg-tertiary border-2 border-outline"></div>
+                        </div>
+                        <pre class="font-mono text-xs md:text-base text-surface-dim mt-8 overflow-x-auto w-full max-w-full">
+                            <code class="block w-full">
+                                <span class="text-tertiary-fixed">const</span>
+                                response = <span class="text-tertiary-fixed">await</span>
+                                fetch(<span class="text-primary-container">&#x27;https://fragment-api.arijitiyan.cc/api/buy-stars &#x27;</span>
+                                , 
+                                <!-- -->
+                                <!-- -->
+                                <span class="text-secondary-fixed">method:</span>
+                                <span class="text-primary-container">&#x27;POST &#x27;</span>
+                                ,
+                                <!-- -->
+                                <!-- -->
+                                <span class="text-secondary-fixed">headers:</span>
+                                <!-- -->
+                                {
+                                <!-- -->
+                                <!-- -->
+                                <span class="text-primary-container">&#x27;Authorization &#x27;</span>
+                                : <span class="text-primary-container">&#x27;Bearer YOUR_API_KEY &#x27;</span>
+                                ,
+                                <!-- -->
+                                <!-- -->
+                                <span class="text-primary-container">&#x27;Content-Type &#x27;</span>
+                                : <span class="text-primary-container">&#x27;application/json &#x27;</span>
+                                <!-- -->
+                                <!-- -->
+                                }
+                                <!-- -->
+                                ,
+                                <!-- -->
+                                <!-- -->
+                                <span class="text-secondary-fixed">body:</span>
+                                JSON.stringify(
+                                <!-- -->
+                                {
+                                <!-- -->
+                                <!-- -->
+                                <span class="text-secondary-fixed">target_username</span>
+                                : <span class="text-primary-container">&#x27;@durov &#x27;</span>
+                                ,
+                                <!-- -->
+                                <!-- -->
+                                <span class="text-secondary-fixed">amount</span>
+                                : <span class="text-[#a8c6ff]">1000</span>
+                                <!-- -->
+                                <!-- -->
+                                }
+                                <!-- -->
+                                )
+                                <!-- -->
+                                <!-- -->
+                                }
+                                <!-- -->
+                                );
+                                <!-- -->
+                                <!-- -->
+                                <span class="text-tertiary-fixed">const</span>
+                                data = <span class="text-tertiary-fixed">await</span>
+                                response.json();
+                                <!-- -->
+                                <!-- -->
+                                console.log(data.status); <span class="text-surface-variant opacity-50">// &quot;success &quot;</span>
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+            </section>
+            <section class="py-16 md:py-24 px-4 md:px-8 border-t-4 border-primary bg-surface-variant" id="source">
+                <div class="max-w-4xl mx-auto text-center">
+                    <div class="border-4 border-primary bg-primary-container p-8 md:p-12 shadow-brutal transform md:-rotate-1 md:hover:rotate-0 transition-transform duration-300">
+                        <h2 class="font-headline font-black text-4xl md:text-7xl uppercase tracking-tighter mb-4 md:mb-6">Own the Source</h2>
+                        <p class="font-body text-xl md:text-2xl font-medium mb-10 text-on-surface-variant">Want to run this entirely on your own infrastructure? The complete, production-ready source code is available for purchase.</p>
+                        <a class="font-label font-bold uppercase text-base md:text-xl tracking-widest bg-primary text-on-primary px-6 md:px-10 py-3 md:py-5 border-4 border-primary hover:bg-secondary hover:text-on-error active:translate-y-1 active:translate-x-1 transition-all shadow-[4px_4px_0_0_#1a1a1a] md:shadow-brutal text-center inline-flex items-center justify-center gap-2 md:gap-3" href="https://t.me/arijitiyan">
+                            Contact @arijitiyan <span class="material-symbols-outlined fill-icon text-base md:text-[24px]">send</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <footer class="w-full py-8 md:py-12 px-4 md:px-8 flex flex-col md:flex-row justify-between items-center gap-6 bg-stone-900 dark:bg-stone-950 border-t-4 border-stone-900">
+                <div class="flex flex-col gap-2 text-center md:text-left">
+                    <span class="text-xl font-black text-yellow-400 uppercase">Fragment API</span>
+                    <p class="font-body font-medium text-sm text-[#f5f0e8]">© 2024 Fragment API. Created by @bottercc. Source code via @arijitiyan.</p>
+                </div>
+                <div class="flex flex-wrap justify-center gap-6 font-body font-medium text-sm text-stone-400">
+                    <a class="hover:text-red-500 transition-colors" href="/doc">API Docs</a>
+                    <a class="hover:text-red-500 transition-colors" href="https://t.me/bottercc" target="_blank" rel="noopener noreferrer">Telegram Channel</a>
+                    <a class="hover:text-red-500 transition-colors" href="https://t.me/funkixa" target="_blank" rel="noopener noreferrer">Support</a>
+                </div>
+            </footer>
+            <script>
+                setInterval(function() {
+                    // 1. Setup toggle button
+                    var btn = document.getElementById('mobile-menu-btn');
+                    if (btn && !btn.hasAttribute('data-bound')) {
+                        btn.setAttribute('data-bound', 'true');
+                        btn.addEventListener('click', function(e) {
+                            e.preventDefault();
+                            var menu = document.getElementById('mobile-menu');
+                            var icon = document.getElementById('mobile-menu-icon');
+                            if (menu) {
+                                if (menu.classList.contains('hidden')) {
+                                    menu.classList.remove('hidden');
+                                    menu.classList.add('flex');
+                                    if (icon)
+                                        icon.innerText = 'close';
+                                } else {
+                                    menu.classList.add('hidden');
+                                    menu.classList.remove('flex');
+                                    if (icon)
+                                        icon.innerText = 'menu';
+                                }
+                            }
+                        });
+                    }
+
+                    // 2. Setup menu dynamic link active colors & force close
+                    var navContainer = document.getElementById('desktop-nav');
+                    if (navContainer && !navContainer.hasAttribute('data-bound')) {
+                        navContainer.setAttribute('data-bound', 'true');
+
+                        var dLinks = document.querySelectorAll('.nav-link');
+                        var mLinks = document.querySelectorAll('.mobile-nav-link');
+
+                        function updateActiveHash(hash) {
+                            dLinks.forEach(function(l) {
+                                if (l.getAttribute('href') === hash) {
+                                    l.classList.add('text-stone-900', 'border-yellow-400');
+                                    l.classList.remove('text-stone-700', 'border-transparent');
+                                } else {
+                                    l.classList.add('text-stone-700', 'border-transparent');
+                                    l.classList.remove('text-stone-900', 'border-yellow-400');
+                                }
+                            });
+                            mLinks.forEach(function(l) {
+                                if (l.getAttribute('href') === hash) {
+                                    l.classList.add('text-stone-900', 'border-yellow-400');
+                                    l.classList.remove('text-stone-700', 'border-transparent');
+                                } else {
+                                    l.classList.add('text-stone-700', 'border-transparent');
+                                    l.classList.remove('text-stone-900', 'border-yellow-400');
+                                }
+                            });
+                        }
+
+                        dLinks.forEach(function(l) {
+                            l.addEventListener('click', function(e) {
+                                updateActiveHash(l.getAttribute('href'));
+                            }, true);
+                        });
+
+                        mLinks.forEach(function(l) {
+                            l.addEventListener('click', function(e) {
+                                updateActiveHash(l.getAttribute('href'));
+                                // Force close the mobile menu
+                                var menu = document.getElementById('mobile-menu');
+                                var icon = document.getElementById('mobile-menu-icon');
+                                if (menu) {
+                                    menu.classList.add('hidden');
+                                    menu.classList.remove('flex');
+                                }
+                                if (icon)
+                                    icon.innerText = 'menu';
+                            }, true);
+                        });
+                    }
+                }, 300);
+            </script>
+        </main>
+        <!--$-->
+        <!--/$-->
+        <script src="/_next/static/chunks/15xrurgzs99gv.js" id="_R_" async=""></script>
+        <script>
+            (self.__next_f = self.__next_f || []).push([0])
+        </script>
+        <script>
+            self.__next_f.push([1, "1:\"$Sreact.fragment\"\n7:I[68027,[\"/_next/static/chunks/0dbhjjzl8qfwv.js\"],\"default\",1]\n:HL[\"/_next/static/chunks/0mtcuu7cd2iei.css\",\"style\"]\n:HL[\"https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800;900\u0026family=Inter:wght@400;500;600;700\u0026display=swap\",\"style\"]\n:HL[\"https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1\u0026display=swap\",\"style\"]\n2:Tec7,"])
+        </script>
+        <script>
+            self.__next_f.push([1, "\n            window.tailwind = window.tailwind || {};\n            window.tailwind.config = {\n                darkMode: \"class\",\n                theme: {\n                    extend: {\n                        \"colors\": {\n                            \"on-surface-variant\": \"#4a4a4a\",\n                            \"on-background\": \"#1a1a1a\",\n                            \"secondary\": \"#e63b2e\",\n                            \"error\": \"#cc0000\",\n                            \"primary-fixed\": \"#ffcc00\",\n                            \"surface-dim\": \"#d6d1c9\",\n                            \"surface\": \"#f5f0e8\",\n                            \"error-container\": \"#ffdad6\",\n                            \"inverse-primary\": \"#f5f0e8\",\n                            \"secondary-fixed\": \"#ffdad6\",\n                            \"on-tertiary-fixed\": \"#1a1a1a\",\n                            \"on-tertiary\": \"#ffffff\",\n                            \"on-secondary\": \"#1a1a1a\",\n                            \"outline\": \"#1a1a1a\",\n                            \"on-tertiary-fixed-variant\": \"#1a1a1a\",\n                            \"on-surface\": \"#1a1a1a\",\n                            \"on-secondary-container\": \"#1a1a1a\",\n                            \"on-primary-fixed\": \"#1a1a1a\",\n                            \"surface-variant\": \"#e8e3da\",\n                            \"surface-bright\": \"#faf7f2\",\n                            \"surface-container-highest\": \"#e2ddd4\",\n                            \"on-secondary-fixed\": \"#1a1a1a\",\n                            \"surface-container-low\": \"#f2ede5\",\n                            \"on-primary-fixed-variant\": \"#1a1a1a\",\n                            \"inverse-surface\": \"#1a1a1a\",\n                            \"primary-container\": \"#ffcc00\",\n                            \"on-secondary-fixed-variant\": \"#1a1a1a\",\n                            \"tertiary-container\": \"#d6e3ff\",\n                            \"on-error-container\": \"#93000a\",\n                            \"on-primary-container\": \"#1a1a1a\",\n                            \"surface-tint\": \"#1a1a1a\",\n                            \"surface-container-high\": \"#e8e3da\",\n                            \"secondary-fixed-dim\": \"#ffb3ab\",\n                            \"inverse-on-surface\": \"#f5f0e8\",\n                            \"surface-container\": \"#eee9e0\",\n                            \"tertiary-fixed-dim\": \"#a8c6ff\",\n                            \"on-tertiary-container\": \"#1a1a1a\",\n                            \"on-primary\": \"#ffffff\",\n                            \"tertiary\": \"#0055ff\",\n                            \"secondary-container\": \"#ffdad6\",\n                            \"primary-fixed-dim\": \"#e6b800\",\n                            \"on-error\": \"#ffffff\",\n                            \"primary\": \"#1a1a1a\",\n                            \"tertiary-fixed\": \"#d6e3ff\",\n                            \"surface-container-lowest\": \"#ffffff\",\n                            \"outline-variant\": \"#d0cbc3\",\n                            \"background\": \"#f5f0e8\"\n                        },\n                        \"borderRadius\": {\n                            \"DEFAULT\": \"0.125rem\",\n                            \"lg\": \"0.25rem\",\n                            \"xl\": \"0.5rem\",\n                            \"full\": \"0.75rem\"\n                        },\n                        \"fontFamily\": {\n                            \"headline\": [\"Space Grotesk\", \"sans-serif\"],\n                            \"body\": [\"Inter\", \"sans-serif\"],\n                            \"label\": [\"Space Grotesk\", \"sans-serif\"]\n                        },\n                        \"boxShadow\": {\n                            'brutal': '4px 4px 0px 0px #1a1a1a',\n                            'brutal-lg': '8px 8px 0px 0px #1a1a1a',\n                        }\n                    }\n                }\n            };\n        "])
+        </script>
+        <script>
+            self.__next_f.push([1, "0:{\"P\":null,\"c\":[\"\",\"\"],\"q\":\"\",\"i\":false,\"f\":[[[\"\",{\"children\":[\"__PAGE__\",{}]},\"$undefined\",\"$undefined\",16],[[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/0mtcuu7cd2iei.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/0dbhjjzl8qfwv.js\",\"async\":true,\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"className\":\"light\",\"children\":[[\"$\",\"head\",null,{\"children\":[[\"$\",\"meta\",null,{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",null,{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1.0\"}],[\"$\",\"script\",null,{\"src\":\"https://cdn.tailwindcss.com?plugins=forms,container-queries\"}],[\"$\",\"link\",null,{\"href\":\"https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800;900\u0026family=Inter:wght@400;500;600;700\u0026display=swap\",\"rel\":\"stylesheet\"}],[\"$\",\"link\",null,{\"href\":\"https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1\u0026display=swap\",\"rel\":\"stylesheet\"}],[\"$\",\"script\",null,{\"id\":\"tailwind-config\",\"dangerouslySetInnerHTML\":{\"__html\":\"$2\"}}],\"$L3\"]}],\"$L4\"]}]]}],{\"children\":[\"$L5\",{},null,false,null]},null,false,null],\"$L6\",false]],\"m\":\"$undefined\",\"G\":[\"$7\",[\"$L8\"]],\"S\":true,\"h\":null,\"s\":\"$undefined\",\"l\":\"$undefined\",\"p\":\"$undefined\",\"d\":\"$undefined\",\"b\":\"YvB8Pfnm9y8v-wxyeZI5D\"}\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "9:I[39756,[\"/_next/static/chunks/0dbhjjzl8qfwv.js\"],\"default\"]\na:I[37457,[\"/_next/static/chunks/0dbhjjzl8qfwv.js\"],\"default\"]\n13:I[97367,[\"/_next/static/chunks/0dbhjjzl8qfwv.js\"],\"ViewportBoundary\"]\n15:I[97367,[\"/_next/static/chunks/0dbhjjzl8qfwv.js\"],\"MetadataBoundary\"]\n16:\"$Sreact.suspense\"\n3:[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"\\n            body { background-color: #f5f0e8; color: #1a1a1a; }\\n            .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }\\n            .fill-icon { font-variation-settings: 'FILL' 1; }\\n        \"}}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "4:[\"$\",\"body\",null,{\"className\":\"font-body antialiased selection:bg-primary-container selection:text-on-primary-container overflow-x-hidden\",\"children\":[\"$\",\"$L9\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$La\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "5:[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"main\",null,{\"className\":\"overflow-x-hidden\",\"children\":[[\"$\",\"nav\",null,{\"className\":\"fixed top-0 w-full z-50 flex justify-between items-center px-4 md:px-8 py-3 md:py-4 bg-[#f5f0e8] dark:bg-stone-950 border-b-4 border-stone-900\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center gap-8\",\"children\":[[\"$\",\"a\",null,{\"className\":\"text-2xl md:text-3xl font-black italic tracking-tighter text-stone-900\",\"href\":\"#\",\"children\":\"Fragment API\"}],[\"$\",\"div\",null,{\"id\":\"desktop-nav\",\"className\":\"hidden md:flex items-center gap-6\",\"children\":[[\"$\",\"a\",null,{\"className\":\"nav-link font-['Space_Grotesk'] font-bold uppercase tracking-tight text-stone-900 border-b-4 border-yellow-400 pb-1 hover:bg-yellow-400 hover:text-stone-900 transition-all duration-75 active:translate-x-1 active:translate-y-1\",\"href\":\"#features\",\"children\":\"Features\"}],[\"$\",\"a\",null,{\"className\":\"nav-link font-['Space_Grotesk'] font-bold uppercase tracking-tight text-stone-700 border-b-4 border-transparent pb-1 hover:text-stone-900 hover:bg-yellow-400 transition-all duration-75 active:translate-x-1 active:translate-y-1\",\"href\":\"#pricing\",\"children\":\"Pricing\"}],[\"$\",\"a\",null,{\"className\":\"nav-link font-['Space_Grotesk'] font-bold uppercase tracking-tight text-stone-700 border-b-4 border-transparent pb-1 hover:text-stone-900 hover:bg-yellow-400 transition-all duration-75 active:translate-x-1 active:translate-y-1\",\"href\":\"/doc\",\"children\":\"Docs\"}],[\"$\",\"a\",null,{\"className\":\"nav-link font-['Space_Grotesk'] font-bold uppercase tracking-tight text-stone-700 border-b-4 border-transparent pb-1 hover:text-stone-900 hover:bg-yellow-400 transition-all duration-75 active:translate-x-1 active:translate-y-1\",\"href\":\"#developer\",\"children\":\"Developer\"}]]}]]}],[\"$\",\"button\",null,{\"id\":\"mobile-menu-btn\",\"className\":\"md:hidden flex items-center justify-center p-1.5 border-4 border-primary bg-primary-container text-on-primary-container shadow-[2px_2px_0px_0px_#1a1a1a] active:translate-y-1 active:translate-x-1 transition-all\",\"children\":[\"$\",\"span\",null,{\"id\":\"mobile-menu-icon\",\"className\":\"material-symbols-outlined\",\"children\":\"menu\"}]}]]}],[\"$\",\"div\",null,{\"id\":\"mobile-menu\",\"className\":\"hidden md:hidden fixed top-[69px] left-0 w-full bg-[#f5f0e8] border-b-4 border-stone-900 z-40 flex-col p-6 gap-6 shadow-brutal-lg transition-all\",\"children\":[[\"$\",\"a\",null,{\"className\":\"mobile-nav-link font-label font-bold uppercase text-2xl text-stone-900 border-l-8 border-yellow-400 pl-4 py-2 hover:border-yellow-400\",\"href\":\"#features\",\"children\":\"Features\"}],[\"$\",\"a\",null,{\"className\":\"mobile-nav-link font-label font-bold uppercase text-2xl text-stone-700 border-l-8 border-transparent pl-4 py-2 hover:border-yellow-400 active:border-yellow-400 transition-colors\",\"href\":\"#pricing\",\"children\":\"Pricing\"}],[\"$\",\"a\",null,{\"className\":\"mobile-nav-link font-label font-bold uppercase text-2xl text-stone-700 border-l-8 border-transparent pl-4 py-2 hover:border-yellow-400 active:border-yellow-400 transition-colors\",\"href\":\"/doc\",\"children\":\"Docs\"}],[\"$\",\"a\",null,{\"className\":\"mobile-nav-link font-label font-bold uppercase text-2xl text-stone-700 border-l-8 border-transparent pl-4 py-2 hover:border-yellow-400 active:border-yellow-400 transition-colors\",\"href\":\"#developer\",\"children\":\"Developer\"}]]}],[\"$\",\"header\",null,{\"className\":\"pt-28 md:pt-32 pb-16 md:pb-24 px-4 md:px-8 max-w-7xl mx-auto min-h-[calc(100vh-80px)] flex flex-col justify-center relative\",\"children\":[[\"$\",\"div\",null,{\"className\":\"absolute top-40 right-10 w-48 md:w-64 h-48 md:h-64 bg-primary-container border-4 border-primary rounded-full blur-3xl opacity-20 -z-10\"}],[\"$\",\"div\",null,{\"className\":\"absolute bottom-20 left-10 w-64 md:w-96 h-64 md:h-96 bg-secondary border-4 border-primary rounded-full blur-3xl opacity-10 -z-10\"}],\"$Lb\"]}],\"$Lc\",\"$Ld\",\"$Le\",\"$Lf\",\"$L10\",\"$L11\"]}],null,\"$L12\"]}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "6:[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$L13\",null,{\"children\":\"$L14\"}],[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$L15\",null,{\"children\":[\"$\",\"$16\",null,{\"name\":\"Next.Metadata\",\"children\":\"$L17\"}]}]}],null]}]\n8:[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/0mtcuu7cd2iei.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "19:I[97367,[\"/_next/static/chunks/0dbhjjzl8qfwv.js\"],\"OutletBoundary\"]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "b:[\"$\",\"div\",null,{\"className\":\"max-w-4xl mt-12 md:mt-0\",\"children\":[[\"$\",\"h1\",null,{\"className\":\"font-headline font-black text-5xl leading-tight sm:text-6xl md:text-8xl lg:text-9xl tracking-tighter uppercase md:leading-[0.85] mb-6 md:mb-8 text-primary\",\"children\":[\"Power your \",[\"$\",\"br\",null,{}],[\"$\",\"span\",null,{\"className\":\"text-tertiary drop-shadow-[3px_3px_0_#1a1a1a] md:drop-shadow-[4px_4px_0_#1a1a1a]\",\"children\":\"Telegram\"}],\" \",[\"$\",\"br\",null,{}],\"Apps\"]}],[\"$\",\"p\",null,{\"className\":\"font-body text-lg md:text-2xl font-medium max-w-2xl mb-8 md:mb-12 border-l-4 md:border-l-8 border-secondary pl-4 md:pl-6 py-2\",\"children\":[\"A free, secure, and robust API to buy Telegram Stars, TON top-ups, and Subscriptions at \",[\"$\",\"span\",null,{\"className\":\"bg-primary-container font-bold px-1.5 md:px-2 border-2 border-primary inline-block transform -rotate-2 leading-none py-1\",\"children\":\"cheaper rates\"}],\".\"]}],[\"$\",\"div\",null,{\"className\":\"flex flex-col sm:flex-row gap-4 md:gap-6 w-full\",\"children\":[[\"$\",\"a\",null,{\"className\":\"w-full sm:w-auto font-label font-bold uppercase text-base md:text-lg tracking-widest bg-primary text-on-primary px-6 md:px-10 py-4 md:py-5 border-4 border-primary hover:bg-primary-container hover:text-on-primary-container active:translate-y-1 active:translate-x-1 transition-all shadow-brutal text-center flex items-center justify-center gap-3\",\"href\":\"/doc\",\"children\":[\"Get Started \",[\"$\",\"span\",null,{\"className\":\"material-symbols-outlined\",\"children\":\"arrow_forward\"}]]}],[\"$\",\"a\",null,{\"className\":\"w-full sm:w-auto font-label font-bold uppercase text-base md:text-lg tracking-widest bg-surface text-primary px-6 md:px-10 py-4 md:py-5 border-4 border-primary hover:bg-surface-dim active:translate-y-1 active:translate-x-1 transition-all shadow-brutal text-center\",\"href\":\"/doc\",\"children\":\"View Docs\"}]]}],[\"$\",\"div\",null,{\"className\":\"mt-12 md:mt-16 flex flex-col sm:flex-row sm:items-center gap-3 md:gap-4 text-xs md:text-sm font-bold uppercase tracking-wider text-on-surface-variant\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex items-center gap-2\",\"children\":[[\"$\",\"span\",null,{\"className\":\"material-symbols-outlined text-secondary text-base md:text-[24px]\",\"children\":\"verified\"}],\" Created by @bottercc\"]}],[\"$\",\"span\",null,{\"className\":\"hidden sm:block w-2 h-2 bg-primary rounded-full\"}],[\"$\",\"span\",null,{\"className\":\"flex items-center gap-2\",\"children\":[[\"$\",\"span\",null,{\"className\":\"material-symbols-outlined text-tertiary text-base md:text-[24px]\",\"children\":\"lock\"}],\" Secure payments via TON wallet\"]}]]}]]}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "c:[\"$\",\"section\",null,{\"className\":\"py-16 md:py-24 px-4 md:px-8 border-y-4 border-primary bg-surface-bright\",\"id\":\"features\",\"children\":[\"$\",\"div\",null,{\"className\":\"max-w-7xl mx-auto\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"font-headline font-black text-4xl md:text-7xl uppercase tracking-tighter mb-10 md:mb-16 relative inline-block\",\"children\":[\"Capabilities\",[\"$\",\"span\",null,{\"className\":\"absolute -bottom-4 left-0 w-full h-2 bg-primary-container border-2 border-primary\"}]]}],[\"$\",\"div\",null,{\"className\":\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8\",\"children\":[[\"$\",\"div\",null,{\"className\":\"border-4 border-primary bg-surface p-8 shadow-brutal hover:shadow-brutal-lg transition-shadow relative overflow-hidden group\",\"children\":[[\"$\",\"div\",null,{\"className\":\"absolute -right-12 -top-12 w-32 h-32 bg-primary-container border-4 border-primary rounded-full group-hover:scale-150 transition-transform duration-500 z-0\"}],[\"$\",\"div\",null,{\"className\":\"relative z-10\",\"children\":[[\"$\",\"span\",null,{\"className\":\"material-symbols-outlined text-5xl mb-6 text-primary block fill-icon\",\"children\":\"stars\"}],[\"$\",\"h3\",null,{\"className\":\"font-headline font-bold text-3xl uppercase tracking-tight mb-4\",\"children\":\"Telegram Stars\"}],[\"$\",\"p\",null,{\"className\":\"font-body text-lg text-on-surface-variant\",\"children\":\"Integrate star purchases directly into your bots or web apps with minimal configuration.\"}]]}]]}],[\"$\",\"div\",null,{\"className\":\"border-4 border-primary bg-secondary p-8 shadow-brutal hover:shadow-brutal-lg transition-shadow relative overflow-hidden group text-on-error\",\"children\":[\"$\",\"div\",null,{\"className\":\"relative z-10\",\"children\":[[\"$\",\"span\",null,{\"className\":\"material-symbols-outlined text-5xl mb-6 block\",\"children\":\"account_balance_wallet\"}],[\"$\",\"h3\",null,{\"className\":\"font-headline font-bold text-3xl uppercase tracking-tight mb-4\",\"children\":\"TON Top-up\"}],[\"$\",\"p\",null,{\"className\":\"font-body text-lg opacity-90\",\"children\":\"Seamlessly top up any Telegram account with TON globally, instantly.\"}]]}]}],[\"$\",\"div\",null,{\"className\":\"border-4 border-primary bg-tertiary p-8 shadow-brutal hover:shadow-brutal-lg transition-shadow relative overflow-hidden group text-on-tertiary\",\"children\":[\"$\",\"div\",null,{\"className\":\"relative z-10\",\"children\":[[\"$\",\"span\",null,{\"className\":\"material-symbols-outlined text-5xl mb-6 block\",\"children\":\"workspace_premium\"}],[\"$\",\"h3\",null,{\"className\":\"font-headline font-bold text-3xl uppercase tracking-tight mb-4\",\"children\":\"Premium Subscriptions\"}],[\"$\",\"p\",null,{\"className\":\"font-body text-lg opacity-90\",\"children\":\"Gift or buy Telegram Premium at lower costs directly through the API.\"}]]}]}],[\"$\",\"div\",null,{\"className\":\"border-4 border-primary bg-primary-container p-8 shadow-brutal hover:shadow-brutal-lg transition-shadow relative overflow-hidden group\",\"children\":[\"$\",\"div\",null,{\"className\":\"relative z-10\",\"children\":[[\"$\",\"span\",null,{\"className\":\"material-symbols-outlined text-5xl mb-6 text-primary block fill-icon\",\"children\":\"shield\"}],[\"$\",\"h3\",null,{\"className\":\"font-headline font-bold text-3xl uppercase tracking-tight mb-4\",\"children\":\"Secure \u0026 Robust\"}],[\"$\",\"p\",null,{\"className\":\"font-body text-lg text-primary\",\"children\":\"Built for high-volume developer needs. 99.9% uptime guaranteed.\"}]]}]}]]}]]}]}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "d:[\"$\",\"section\",null,{\"className\":\"py-16 md:py-24 px-4 md:px-8 max-w-7xl mx-auto\",\"id\":\"pricing\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"font-headline font-black text-4xl md:text-7xl uppercase tracking-tighter mb-10 md:mb-16 text-center\",\"children\":[\"The \",[\"$\",\"span\",null,{\"className\":\"bg-primary text-on-primary px-4 py-2 border-4 border-primary transform inline-block rotate-2 ml-1 md:ml-4\",\"children\":\"Advantage\"}]]}],[\"$\",\"div\",null,{\"className\":\"border-4 border-primary bg-surface shadow-brutal overflow-hidden\",\"children\":[[\"$\",\"div\",null,{\"className\":\"grid grid-cols-3 border-b-4 border-primary bg-surface-dim font-headline font-bold uppercase text-[10px] md:text-lg\",\"children\":[[\"$\",\"div\",null,{\"className\":\"p-2 md:p-6 border-r-4 border-primary flex items-center justify-center\",\"children\":\"Item\"}],[\"$\",\"div\",null,{\"className\":\"p-2 md:p-6 border-r-4 border-primary flex items-center justify-center text-center\",\"children\":\"Official App\"}],[\"$\",\"div\",null,{\"className\":\"p-2 md:p-6 bg-primary-container flex items-center justify-center text-center\",\"children\":\"Fragment API\"}]]}],[\"$\",\"div\",null,{\"className\":\"grid grid-cols-3 border-b-4 border-primary relative group hover:bg-surface-variant transition-colors\",\"children\":[[\"$\",\"div\",null,{\"className\":\"p-2 md:p-6 border-r-4 border-primary flex items-center gap-1 md:gap-4 font-bold text-[10px] sm:text-xs md:text-xl\",\"children\":[[\"$\",\"span\",null,{\"className\":\"material-symbols-outlined fill-icon text-primary-fixed-dim text-sm md:text-2xl\",\"children\":\"stars\"}],\" 1000 Stars\"]}],[\"$\",\"div\",null,{\"className\":\"p-2 md:p-6 border-r-4 border-primary flex items-center justify-center text-on-surface-variant line-through text-[10px] sm:text-xs md:text-lg\",\"children\":\"~$21.60\"}],[\"$\",\"div\",null,{\"className\":\"p-2 md:p-6 flex items-center justify-center font-black text-xs sm:text-sm md:text-2xl text-secondary bg-primary-container/20 group-hover:bg-primary-container transition-colors\",\"children\":\"~$15.00\"}]]}],[\"$\",\"div\",null,{\"className\":\"grid grid-cols-3 border-b-4 border-primary relative group hover:bg-surface-variant transition-colors\",\"children\":[[\"$\",\"div\",null,{\"className\":\"p-2 md:p-6 border-r-4 border-primary flex items-center gap-1 md:gap-4 font-bold text-[10px] sm:text-xs md:text-xl\",\"children\":[[\"$\",\"span\",null,{\"className\":\"material-symbols-outlined fill-icon text-primary-fixed-dim text-sm md:text-2xl\",\"children\":\"stars\"}],\" 3000 Stars\"]}],[\"$\",\"div\",null,{\"className\":\"p-2 md:p-6 border-r-4 border-primary flex items-center justify-center text-on-surface-variant line-through text-[10px] sm:text-xs md:text-lg\",\"children\":\"~$64.80\"}],[\"$\",\"div\",null,{\"className\":\"p-2 md:p-6 flex items-center justify-center font-black text-xs sm:text-sm md:text-2xl text-secondary bg-primary-container/20 group-hover:bg-primary-container transition-colors\",\"children\":\"~$45.00\"}]]}],[\"$\",\"div\",null,{\"className\":\"grid grid-cols-3 border-b-4 border-primary relative group hover:bg-surface-variant transition-colors\",\"children\":[[\"$\",\"div\",null,{\"className\":\"p-2 md:p-6 border-r-4 border-primary flex items-center gap-1 md:gap-4 font-bold text-[10px] sm:text-xs md:text-xl\",\"children\":[[\"$\",\"span\",null,{\"className\":\"material-symbols-outlined fill-icon text-primary-fixed-dim text-sm md:text-2xl\",\"children\":\"stars\"}],\" 5000 Stars\"]}],[\"$\",\"div\",null,{\"className\":\"p-2 md:p-6 border-r-4 border-primary flex items-center justify-center text-on-surface-variant line-through text-[10px] sm:text-xs md:text-lg\",\"children\":\"~$108.00\"}],[\"$\",\"div\",null,{\"className\":\"p-2 md:p-6 flex items-center justify-center font-black text-xs sm:text-sm md:text-2xl text-secondary bg-primary-container/20 group-hover:bg-primary-container transition-colors\",\"children\":\"~$75.00\"}]]}]]}]]}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "e:[\"$\",\"section\",null,{\"className\":\"py-16 md:py-24 px-4 md:px-8 border-t-4 border-primary bg-primary text-on-primary\",\"id\":\"developer\",\"children\":[\"$\",\"div\",null,{\"className\":\"max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 items-center\",\"children\":[[\"$\",\"div\",null,{\"children\":[[\"$\",\"h2\",null,{\"className\":\"font-headline font-black text-4xl md:text-7xl uppercase tracking-tighter mb-6 md:mb-8\",\"children\":\"Developer Ready\"}],[\"$\",\"p\",null,{\"className\":\"font-body text-xl mb-8 opacity-90 border-l-4 border-primary-container pl-4\",\"children\":\"Integrate in minutes. Simple REST endpoints designed for speed and reliability.\"}],[\"$\",\"a\",null,{\"className\":\"font-label font-bold uppercase tracking-widest bg-primary-container text-on-primary-container px-8 py-4 border-4 border-primary-container hover:bg-surface hover:border-surface hover:text-primary active:translate-y-1 active:translate-x-1 transition-all inline-block\",\"href\":\"/doc\",\"children\":\"Read the Docs\"}]]}],[\"$\",\"div\",null,{\"className\":\"border-4 border-outline bg-[#0d0d0d] p-4 md:p-6 shadow-[8px_8px_0px_0px_#ffcc00] relative overflow-hidden max-w-full w-full\",\"children\":[[\"$\",\"div\",null,{\"className\":\"absolute top-0 left-0 w-full h-8 border-b-4 border-outline flex items-center px-4 gap-2 bg-surface\",\"children\":[[\"$\",\"div\",null,{\"className\":\"w-3 h-3 rounded-full bg-secondary border-2 border-outline\"}],[\"$\",\"div\",null,{\"className\":\"w-3 h-3 rounded-full bg-primary-container border-2 border-outline\"}],[\"$\",\"div\",null,{\"className\":\"w-3 h-3 rounded-full bg-tertiary border-2 border-outline\"}]]}],[\"$\",\"pre\",null,{\"className\":\"font-mono text-xs md:text-base text-surface-dim mt-8 overflow-x-auto w-full max-w-full\",\"children\":[\"$\",\"code\",null,{\"className\":\"block w-full\",\"children\":[[\"$\",\"span\",null,{\"className\":\"text-tertiary-fixed\",\"children\":\"const\"}],\" response = \",[\"$\",\"span\",null,{\"className\":\"text-tertiary-fixed\",\"children\":\"await\"}],\" fetch(\",[\"$\",\"span\",null,{\"className\":\"text-primary-container\",\"children\":\"'https://fragment-api.arijitiyan.cc/api/buy-stars'\"}],\", \",\"\\n\",\"  \",[\"$\",\"span\",null,{\"className\":\"text-secondary-fixed\",\"children\":\"method:\"}],\" \",[\"$\",\"span\",null,{\"className\":\"text-primary-container\",\"children\":\"'POST'\"}],\",\",\"\\n\",\"  \",[\"$\",\"span\",null,{\"className\":\"text-secondary-fixed\",\"children\":\"headers:\"}],\" \",\"{\",\"\\n\",\"    \",[\"$\",\"span\",null,{\"className\":\"text-primary-container\",\"children\":\"'Authorization'\"}],\": \",[\"$\",\"span\",null,{\"className\":\"text-primary-container\",\"children\":\"'Bearer YOUR_API_KEY'\"}],\",\",\"\\n\",\"    \",[\"$\",\"span\",null,{\"className\":\"text-primary-container\",\"children\":\"'Content-Type'\"}],\": \",[\"$\",\"span\",null,{\"className\":\"text-primary-container\",\"children\":\"'application/json'\"}],\"\\n\",\"  \",\"}\",\",\",\"\\n\",\"  \",[\"$\",\"span\",null,{\"className\":\"text-secondary-fixed\",\"children\":\"body:\"}],\" JSON.stringify(\",\"{\",\"\\n\",\"    \",[\"$\",\"span\",null,{\"className\":\"text-secondary-fixed\",\"children\":\"target_username\"}],\": \",[\"$\",\"span\",null,{\"className\":\"text-primary-container\",\"children\":\"'@durov'\"}],\",\",\"\\n\",\"    \",[\"$\",\"span\",null,{\"className\":\"text-secondary-fixed\",\"children\":\"amount\"}],\": \",[\"$\",\"span\",null,{\"className\":\"text-[#a8c6ff]\",\"children\":\"1000\"}],\"\\n\",\"  \",\"}\",\")\",\"\\n\",\"}\",\");\",\"\\n\",\"\\n\",[\"$\",\"span\",null,{\"className\":\"text-tertiary-fixed\",\"children\":\"const\"}],\" data = \",[\"$\",\"span\",null,{\"className\":\"text-tertiary-fixed\",\"children\":\"await\"}],\" response.json();\",\"\\n\",\"console.log(data.status); \",[\"$\",\"span\",null,{\"className\":\"text-surface-variant opacity-50\",\"children\":\"// \\\"success\\\"\"}]]}]}]]}]]}]}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "f:[\"$\",\"section\",null,{\"className\":\"py-16 md:py-24 px-4 md:px-8 border-t-4 border-primary bg-surface-variant\",\"id\":\"source\",\"children\":[\"$\",\"div\",null,{\"className\":\"max-w-4xl mx-auto text-center\",\"children\":[\"$\",\"div\",null,{\"className\":\"border-4 border-primary bg-primary-container p-8 md:p-12 shadow-brutal transform md:-rotate-1 md:hover:rotate-0 transition-transform duration-300\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"font-headline font-black text-4xl md:text-7xl uppercase tracking-tighter mb-4 md:mb-6\",\"children\":\"Own the Source\"}],[\"$\",\"p\",null,{\"className\":\"font-body text-xl md:text-2xl font-medium mb-10 text-on-surface-variant\",\"children\":\"Want to run this entirely on your own infrastructure? The complete, production-ready source code is available for purchase.\"}],[\"$\",\"a\",null,{\"className\":\"font-label font-bold uppercase text-base md:text-xl tracking-widest bg-primary text-on-primary px-6 md:px-10 py-3 md:py-5 border-4 border-primary hover:bg-secondary hover:text-on-error active:translate-y-1 active:translate-x-1 transition-all shadow-[4px_4px_0_0_#1a1a1a] md:shadow-brutal text-center inline-flex items-center justify-center gap-2 md:gap-3\",\"href\":\"https://t.me/arijitiyan\",\"children\":[\"Contact @arijitiyan \",[\"$\",\"span\",null,{\"className\":\"material-symbols-outlined fill-icon text-base md:text-[24px]\",\"children\":\"send\"}]]}]]}]}]}]\n10:[\"$\",\"footer\",null,{\"className\":\"w-full py-8 md:py-12 px-4 md:px-8 flex flex-col md:flex-row justify-between items-center gap-6 bg-stone-900 dark:bg-stone-950 border-t-4 border-stone-900\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-2 text-center md:text-left\",\"children\":[[\"$\",\"span\",null,{\"className\":\"text-xl font-black text-yellow-400 uppercase\",\"children\":\"Fragment API\"}],[\"$\",\"p\",null,{\"className\":\"font-body font-medium text-sm text-[#f5f0e8]\",\"children\":\"© 2024 Fragment API. Created by @bottercc. Source code via @arijitiyan.\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex flex-wrap justify-center gap-6 font-body font-medium text-sm text-stone-400\",\"children\":[[\"$\",\"a\",null,{\"className\":\"hover:text-red-500 transition-colors\",\"href\":\"/doc\",\"children\":\"API Docs\"}],[\"$\",\"a\",null,{\"className\":\"hover:text-red-500 transition-colors\",\"href\":\"https://t.me/bottercc\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"children\":\"Telegram Channel\"}],[\"$\",\"a\",null,{\"className\":\"hover:text-red-500 transition-colors\",\"href\":\"https://t.me/funkixa\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"children\":\"Support\"}]]}]]}]\n18:T1037,"])
+        </script>
+        <script>
+            self.__next_f.push([1, "\n                setInterval(function() {\n                    // 1. Setup toggle button\n                    var btn = document.getElementById('mobile-menu-btn');\n                    if (btn \u0026\u0026 !btn.hasAttribute('data-bound')) {\n                        btn.setAttribute('data-bound', 'true');\n                        btn.addEventListener('click', function(e) {\n                            e.preventDefault();\n                            var menu = document.getElementById('mobile-menu');\n                            var icon = document.getElementById('mobile-menu-icon');\n                            if (menu) {\n                                if (menu.classList.contains('hidden')) {\n                                    menu.classList.remove('hidden');\n                                    menu.classList.add('flex');\n                                    if(icon) icon.innerText = 'close';\n                                } else {\n                                    menu.classList.add('hidden');\n                                    menu.classList.remove('flex');\n                                    if(icon) icon.innerText = 'menu';\n                                }\n                            }\n                        });\n                    }\n\n                    // 2. Setup menu dynamic link active colors \u0026 force close\n                    var navContainer = document.getElementById('desktop-nav');\n                    if (navContainer \u0026\u0026 !navContainer.hasAttribute('data-bound')) {\n                        navContainer.setAttribute('data-bound', 'true');\n                        \n                        var dLinks = document.querySelectorAll('.nav-link');\n                        var mLinks = document.querySelectorAll('.mobile-nav-link');\n\n                        function updateActiveHash(hash) {\n                            dLinks.forEach(function(l) {\n                                if(l.getAttribute('href') === hash) {\n                                    l.classList.add('text-stone-900', 'border-yellow-400');\n                                    l.classList.remove('text-stone-700', 'border-transparent');\n                                } else {\n                                    l.classList.add('text-stone-700', 'border-transparent');\n                                    l.classList.remove('text-stone-900', 'border-yellow-400');\n                                }\n                            });\n                            mLinks.forEach(function(l) {\n                                if(l.getAttribute('href') === hash) {\n                                    l.classList.add('text-stone-900', 'border-yellow-400');\n                                    l.classList.remove('text-stone-700', 'border-transparent');\n                                } else {\n                                    l.classList.add('text-stone-700', 'border-transparent');\n                                    l.classList.remove('text-stone-900', 'border-yellow-400');\n                                }\n                            });\n                        }\n\n                        dLinks.forEach(function(l) {\n                            l.addEventListener('click', function(e) {\n                                updateActiveHash(l.getAttribute('href'));\n                            }, true);\n                        });\n\n                        mLinks.forEach(function(l) {\n                            l.addEventListener('click', function(e) {\n                                updateActiveHash(l.getAttribute('href'));\n                                // Force close the mobile menu\n                                var menu = document.getElementById('mobile-menu');\n                                var icon = document.getElementById('mobile-menu-icon');\n                                if (menu) {\n                                    menu.classList.add('hidden');\n                                    menu.classList.remove('flex');\n                                }\n                                if (icon) icon.innerText = 'menu';\n                            }, true);\n                        });\n                    }\n                }, 300);\n            "])
+        </script>
+        <script>
+            self.__next_f.push([1, "11:[\"$\",\"script\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"$18\"}}]\n12:[\"$\",\"$L19\",null,{\"children\":[\"$\",\"$16\",null,{\"name\":\"Next.MetadataOutlet\",\"children\":\"$@1a\"}]}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "14:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "1b:I[27201,[\"/_next/static/chunks/0dbhjjzl8qfwv.js\"],\"IconMark\"]\n17:[[\"$\",\"title\",\"0\",{\"children\":\"Fragment API - Power your Telegram Apps\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"A free, secure, and robust API to buy Telegram Stars, TON top-ups, and Subscriptions at cheaper rates.\"}],[\"$\",\"link\",\"2\",{\"rel\":\"icon\",\"href\":\"/favicon.ico?favicon.0hj2gf13-1elz.ico\",\"sizes\":\"640x640\",\"type\":\"image/x-icon\"}],[\"$\",\"$L1b\",\"3\",{}]]\n1a:null\n"])
+        </script>
+    </body>
+</html>
